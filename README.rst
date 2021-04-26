@@ -16,9 +16,9 @@ catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/inc
 catkin build -DCMAKE_BUILD_TYPE=Release
 ```
 
-check installation:
-```
+Check installation:
 
+```
 python3
 from cv_bridge.boost.cv_bridge_boost import getCvType
 ```
