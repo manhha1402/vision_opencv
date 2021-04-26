@@ -8,7 +8,7 @@ Packages for interfacing ROS with OpenCV, a library of programming functions for
 
 ### Overlay
 
-Build `vision_opencv` package with OpenCV built from source and Python3
+Build `vision_opencv` package with OpenCV built from source and Python3.
 
 
 ```bash
