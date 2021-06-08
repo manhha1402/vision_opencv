@@ -20,7 +20,8 @@ find_package(OpenCV REQUIRED NO_MODULE PATHS /usr/local NO_DEFAULT_PATH
     opencv_imgcodecs
   CONFIG
 )
-
+MESSAGE("OpenCV version : ${OpenCV_VERSION}")
+MESSAGE("OpenCV DIR : ${OpenCV_DIR}")
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES ${PROJECT_NAME}

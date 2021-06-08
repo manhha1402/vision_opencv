@@ -499,10 +499,10 @@ void CvImage::toCompressedImageMsg(sensor_msgs::CompressedImage& ros_image, cons
     }
     image = temp->image;
   }
-
   std::string format = getFormat(dst_format);
   ros_image.format = format;
   cv::imencode("." + format, image, ros_image.data);
+
 }
 
 // Deep copy data, returnee is mutable
